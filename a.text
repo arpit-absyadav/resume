@@ -1,0 +1,10 @@
+// array : [2,6,8,4,7,3] sum = 15
+
+const a = [2, 6, 8, 4, 7, 3];
+const sum = 15;
+for (let i = 0; i < a.length; i++) {
+  const subVal = sum - a[i];
+  if (subVal === a[i]) {
+    console.log();
+  }
+}
